@@ -1,6 +1,7 @@
 
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Login = () => {
@@ -26,7 +27,7 @@ const Login = () => {
   <input className="btn btn-danger" type="submit" value="LogIn"/>
 </div>
    
-  <a className="Login" href="/"><h5>SignUp</h5></a>
+  <Link className="Login" to="/signup"><h5>SignUp</h5></Link>
   <br />
   <p className="tag-line">Your friends are here so come togather, feel togather</p>
   </div>

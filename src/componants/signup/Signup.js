@@ -27,11 +27,15 @@ const Signup = () => {
   <input type="password" aria-label="password" className="form-control" placeholder="Password"/>
 </div>
 
+  <div className="input-group">
+  <input type="password" aria-label="password" className="form-control" placeholder="Confirm Password"/>
+</div>
+
 <div className="form-group">
   <input className="btn btn-danger" type="submit" value="SignUp"/>
 </div>
    
-  <Link className="Login" href="/login"><h5>Login</h5></Link>
+  <Link className="Login" to="/login"><h5>Login</h5></Link>
   <br />
   <p className="tag-line">Your friends are here so come togather, feel togather</p>
   </div>
